@@ -1,0 +1,5 @@
+<launch>
+
+	<node pkg="rosbag" type="record" name="record_odom"
+		args="record -o /data/odom-tests /mavros/imu/data /mavros/imu/mag /mavros/imu/data_raw /mavros/rc/out /mavros/rc/in /mavros/global_position/local /loco/command"/>
+</launch>

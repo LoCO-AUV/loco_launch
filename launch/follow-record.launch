@@ -1,0 +1,4 @@
+<launch>
+        <node pkg="rosbag" type="record" name="record_follow"
+              args="record -o /data/follow-tests /loco_cams/right/image_raw /loco_cams/left/image_raw"/>
+</launch>

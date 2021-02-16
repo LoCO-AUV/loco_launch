@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="rosbag" type="record" name="record_kevin"
+		args="record -o /data/kevin-drag-bags /mavros/imu/data /mavros/imu/data_raw /mavros/rc/out /mavros/rc/in mavros/ /loco/command"/>
+</launch>

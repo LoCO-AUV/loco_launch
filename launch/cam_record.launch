@@ -1,0 +1,4 @@
+<launch>
+        <node pkg="rosbag" type="record" name="record_camera"
+              args="record -o /data/cam-tests /loco_cams/right/image_raw"/>
+</launch>
