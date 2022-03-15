@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="rosbag" type="record" name="aoc_record"
+		args="record -o /data/aoc_bags/aoc /mavros/imu/data /mavros/imu/mag /mavros/imu/data_raw /mavros/rc/out /mavros/rc/in /loco/command /loco_cams/left/image_raw /loco_cams/right/image_raw"/>
+</launch>
